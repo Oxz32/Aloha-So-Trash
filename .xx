@@ -1,5 +1,7 @@
+local l=loadstring(game:HttpGet())()
+
 if game.PlaceId==2753915549 or 4442272183 or 7449423635 then
-bf="https://raw.githubusercontent.com/Oxz32/Aloha-So-Trash/main/Best-Hub-BF.lua"
+l("https://raw.githubusercontent.com/Oxz32/Aloha-So-Trash/main/Best-Hub-BF.lua"))()
 else
 game.Players.LocalPlayer:Kick()
 end
